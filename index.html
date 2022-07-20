@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsi Praktikum Pemrograman Web</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Alphasar.id </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Berbelanja serta <span>berhemat</span> untuk keluargamu</h3>
+        <p>Keluarkan banyak rupiah untuk kebutuhan, namun keuangan tetap tertahan.</p>
+        <a href="#" class="btn">Belanja</a>
+    </div>
+
+</section>
+
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Untuk <span>Kamu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/features1.png" alt="">
+            <h3>Segar Dan Alami</h3>
+            <p>Produk Memiliki Kualitas Yang Terbaik. Dapat Dikonsumsi Setiap Hari.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/features2.png" alt="">
+            <h3>Gratis Ongkir</h3>
+            <p>Pengiriman Produk Tidak Dikenai Biaya ( Memiliki Jarak Kirim Yang Dibatasi! )</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/features3.png" alt="">
+            <h3>Pembayaran Mudah</h3>
+            <p>Cara Bayar Yang Mudah Membuat Nyaman Saat Anda Berbelanja</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Pilihan <span>Produk</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/produk1.png" alt="">
+                <h3>Minyak Goreng</h3>
+                <div class="price"> Rp. 26.000/Liter </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Masukan Keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk2.png" alt="">
+                <h3>Air Mineral</h3>
+                <div class="price"> Rp. 5.000/Botol </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Masukan Keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk3.png" alt="">
+                <h3>Mie Instan</h3>
+                <div class="price"> Rp. 2.800/Bungkus </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Masukan Keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk4.png" alt="">
+                <h3>Beras Organik</h3>
+                <div class="price"> Rp. 12.000/Kg </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Masukan Keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk5.png" alt="">
+                <h3>Gula Pasir</h3>
+                <div class="price"> Rp. 15.000/Kg </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Masukan Keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk6.png" alt="">
+                <h3>Susu</h3>
+                <div class="price"> Rp. 16.000/Liter </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Masukan Keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/produk7.png" alt="">
+                <h3>Roti Gandum</h3>
+                <div class="price"> Rp. 23.000/Kemasan </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Masukan Keranjang</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> Kategori <span>Diskon</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/promo1.png" alt="">
+            <h3>Gratis Ongkir</h3>
+            <p>Jika Jarak Pelanggan Kurang dari 2 Km maka Ongkir akan di tiadakan</p>
+            <a href="#" class="btn">Belanja</a>
+        </div>
+
+        <div class="box">
+            <img src="image/promo2.png" alt="">
+            <h3>Akhir Bulan</h3>
+            <p>Potongan Sampai 15% ( 10 hari menuju pergantian bulan )</p>
+            <a href="#" class="btn">Belanja</a>
+        </div>
+
+        <div class="box">
+            <img src="image/promo3.png" alt="">
+            <h3>Hari Raya</h3>
+            <p>Potongan Sampai 20% + Gratis Ongkir</p>
+            <a href="#" class="btn">Belanja</a>
+        </div>
+
+        <div class="box">
+            <img src="image/promo4.png" alt="">
+            <h3>Pelajar / Mahasiswa</h3>
+            <p>Potongan 10% satu bulan sekali ( Syarat Memiliki Kartu Pelajar Aktif ! )</p>
+            <a href="#" class="btn">Belanja</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Komentar <span>Pelanggan</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pelanggan1.png" alt="">
+                <p>komentar bebas</p>
+                <h3>Spongebob</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pelanggan2.png" alt="">
+                <p>Komentar Bebas</p>
+                <h3>Patrick</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="credit"> created by <span> mr. alpha escobar </span> | all rights reserved </div>
+
+</section>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
